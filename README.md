@@ -40,7 +40,8 @@ The repository is organized by chapter, following the book's structure:
 ├── 17_support_vector_machines/     # Linear SVM, RBF kernels, hyperparameter tuning
 ├── 18_naive_bayes/                 # Gaussian, Multinomial, and Bernoulli Naive Bayes
 ├── 19_clustering/                  # K-Means, DBSCAN, Hierarchical Clustering
-├── 20_neural_networks/             # Intro to PyTorch, tensors, training loops, activation functions
-├── 21_saving_and_loading_models/   # Joblib, Pickle, PyTorch checkpointing
+├── 20_tensors_in_pytorch/          # Tensors in PyTorch
+├── 21_neural_networks/             # Intro to PyTorch, tensors, training loops, activation functions
+├── 22_saving_and_loading_models/   # Joblib, Pickle, PyTorch checkpointing
 └── README.md
 ```
