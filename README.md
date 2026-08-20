@@ -42,6 +42,7 @@ The repository is organized by chapter, following the book's structure:
 ├── 19_clustering/                  # K-Means, DBSCAN, Hierarchical Clustering
 ├── 20_tensors_in_pytorch/          # Tensors in PyTorch
 ├── 21_neural_networks/             # Intro to PyTorch, tensors, training loops, activation functions
-├── 22_saving_and_loading_models/   # Joblib, Pickle, PyTorch checkpointing
+├── 22_nn_with_unstructured_data/   # Neural networks with unstructured data
+├── 23_saving_and_loading_models/   # Joblib, Pickle, PyTorch checkpointing
 └── README.md
 ```
