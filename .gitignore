@@ -36,6 +36,11 @@ staticfiles/
 # Логи
 *.log
 
+# Дані та артефакти навчання в корені репозиторію
+data/
+fashion_mnist_model/
+my_awesome_model/
+
 # ОС-специфічні файли
 .DS_Store
 Thumbs.db
