@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest a new example, chapter improvement, or documentation change
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like to improve?
+      description: Explain the learning goal or problem this would address.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the example, notebook, or documentation you propose.
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Related chapter or file
+      placeholder: 19_clustering/clustering.ipynb

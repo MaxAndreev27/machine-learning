@@ -1,5 +1,10 @@
 # Machine Learning with Python Cookbook (2nd Edition) — Code & Notes
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+Practical, runnable examples and study notes for learning machine learning with Python, from NumPy and data preparation through classical algorithms, PyTorch, and model persistence.
+
 This repository contains code examples, implementations, and study notes based on the book **"Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning" (2nd Edition, 2023/2024)** by **Kyle Gallatin** and **Chris Albon**.
 
 ## 📖 Overview
@@ -12,6 +17,30 @@ The 2nd edition of this practical guide covers over 200 self-contained recipes f
 - **Classical ML & Pipeline:** Scikit-Learn
 - **Deep Learning:** PyTorch
 - **Data Visualization:** Matplotlib, Seaborn
+
+## Getting started
+
+Each chapter is self-contained and includes its own `requirements.txt` where dependencies are needed. Create a virtual environment inside the chapter directory, install its requirements, and open the notebook in VS Code or Jupyter:
+
+```bash
+cd 23_saving_and_loading_models
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+The notebooks are educational examples rather than a packaged Python library. Some chapters use larger frameworks or local data, so follow the requirements file for the chapter you are running.
+
+## Contributing
+
+Bug reports, corrections, clearer explanations, and focused examples are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. Please also follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Project policies
+
+- [Contributing guidelines](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security Policy](SECURITY.md)
+- [MIT License](LICENSE)
 
 ---
 

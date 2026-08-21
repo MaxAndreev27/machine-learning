@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a broken example, notebook, or setup step
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and the expected behavior.
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Affected chapter or file
+      placeholder: 23_saving_and_loading_models/saving_and_loading_models.ipynb
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How can we reproduce it?
+      description: Include the command, notebook cell, error, or minimal example.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Python version, OS, and relevant package versions
