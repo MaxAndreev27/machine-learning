@@ -41,6 +41,15 @@ data/
 fashion_mnist_model/
 my_awesome_model/
 
+# Pkl файли (моделі, збережені за допомогою joblib або pickle)
+*.pkl
+
+# Keras model files
+*.keras
+
+# PyTorch model files
+*.pt
+
 # ОС-специфічні файли
 .DS_Store
 Thumbs.db
